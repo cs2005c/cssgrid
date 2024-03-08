@@ -4,56 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    
     <title>Desafio N° 3 :: Módulo 2 :: MediaQuery</title>
 </head>
 <body>
-    <header>
-        <img src="https://w7.pngwing.com/pngs/991/673/png-transparent-renewable-energy-computer-icons-wind-power-electricity-leaf-recycling-logo.png" width="80px" height="80px">
-        <h3>SolEnergy- Energia Solar</h3> 
-        <label for="accesorios">Ordenar por:</label>
+    <header>      
+        <div class="titulo">            
+            <span class="mdi mdi-solar-power-variant-outline"></span>
+             <p>SolEnergy- Energia Solar </p>
+             <span class="mdi mdi-menu"></span>
+        </div>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                        <a href="#">Catalogo</a>
+                        <a href="#">Ofertas</a>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>     
+    </header>
 
+    <aside>
+        <label for="accesorios">Ordenar por:</label>
         <select name="cars" id="cars">
           <option value="descri">Descripción</option>
           <option value="precio">Precio</option>
           <option value="modelo">Modelo</option>
-        </select>    
-        <menu>
-            <nav>
-                <ul>
-                    <li><a link="#">Inicio</a></li>
-                    <li>Catalogo</li>
-                    <li>Ofertas</li>
-                    <li>Contacto</li>
-                </ul>
-            </nav>
-        </menu>
-    </header>
-
-    <aside>
-            <p>Aside</p>
+        </select> 
     </aside>
     
     <main>
            <div class="prod-container">
-                    <div class="tarjeta">
-                            aca va cada producto del catalogo
-                    </div>
+                    
+                      <figure class="tarjeta">
+                            <img src="./assets/img/Bateria Nimac GEL serie G, Ciclo Profundo 250 AH, 12 V.jpg" alt="">
+                            <figcaption>
+                                <h4>Bateria Nimac GEL serie G, Ciclo Profundo 250 AH, 12 V</h4>
+                                <button>Ver Más</button>
+                            </figcaption>
+                      </figure>
 
-                    <div class="tarjeta">
-                            aca va cada producto del catalogo
-                    </div>
+                      <figure class="tarjeta">
+                        <img src="./assets/img/Batería Litio Pylontech 2,4kwh 48V 50ah.png" alt="">
+                        <figcaption>
+                            <h4>Batería Litio Pylontech 2,4kwh 48V 50ah</h4>
+                            <button>Ver Más</button>
+                        </figcaption>
+                  </figure>
 
-                    <div class="tarjeta">
-                           aca va cada producto del catalogo
-                    </div>
+                  <figure class="tarjeta">
+                    <img src="./assets//img/Medidor Energía (kwh) CHINT Monofásico 60A.jpg" alt="">
+                    <figcaption>
+                        <h4>Medidor Energía (kwh) CHINT Monofásico 60A</h4>
+                        <button>Ver Más</button>
+                    </figcaption>
+                 </figure>
 
-                    <div class="tarjeta">
-                            aca va cada producto del catalogo
-                    </div>
+                <figure class="tarjeta">
+                    <img src="./assets/img/Medidor Flujo Limitador De Inyección Inversores SOLIS.jpg" alt="">
+                    <figcaption>
+                        <h4>Medidor Flujo Limitador De Inyección Inversores SOLIS</h4>
+                        <button>Ver Más</button>
+                    </figcaption>
+                </figure>
 
-                    <div class="tarjeta">
-                            aca va cada producto del catalogo
-                     </div>
+                <figure class="tarjeta">
+                    <img src="./assets/img/Monitor de Baterías VICTRON BMV-700.jpg" alt="">
+                    <figcaption>
+                        <h4>Monitor de Baterías VICTRON BMV-700</h4>
+                        <button>Ver Más</button>
+                    </figcaption>
+                </figure>
+
+                <figure class="tarjeta">
+                    <img src="./assets/img/Victron GX Touch 50 Pantalla Táctil Cerbo GX.png" alt="">
+                    <figcaption>
+                        <h4>Victron GX Touch 50 Pantalla Táctil Cerbo GX</h4>
+                        <button>Ver Más</button>
+                    </figcaption>
+                </figure>
+
+
 
             </div>
               
