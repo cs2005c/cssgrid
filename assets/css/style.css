@@ -12,8 +12,6 @@ body {
 }
 
 header {
-    /* display: flex;
-    flex-direction: column; */
     grid-area: header;
     background-color: rgb(37, 87, 153);
 
@@ -115,3 +113,27 @@ nav a {
     gap: 30px;   
 
 }
+
+@media  (min-width:576px)
+{ 
+
+        body {
+        
+            grid-template-areas: 
+            "header" "header" "header"
+            "aside" "main" "main"
+            "footer" "footer" "footer" 
+            ; 
+    }
+
+    .prod-container {   
+        display: grid;    
+        grid-template-columns: auto auto auto;
+        gap:5px
+    
+    }
+
+
+
+}
+
